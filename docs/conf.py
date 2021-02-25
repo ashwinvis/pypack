@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'PyPack'
-copyright = u"2019, Ashwin Vishnu Mohanan"
+copyright = u"2021, Ashwin Vishnu Mohanan"
 author = u"Ashwin Vishnu Mohanan"
 
 # The version info for the project you're documenting, acts as replacement
