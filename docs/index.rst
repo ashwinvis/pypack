@@ -10,7 +10,7 @@ Welcome to PyPack's documentation!
    usage
    modules
    contributing
-   authors
+   thanks
    history
 
 Indices and tables

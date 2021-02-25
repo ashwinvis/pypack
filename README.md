@@ -21,10 +21,3 @@ A demo package to show how cookiecutter-pypack renders.
 # Features
 
 * TODO
-
-# Credits
-
-This package was created with
-[Cookiecutter](https://github.com/audreyr/cookiecutter) and the
-[ashwinvis/cookiecutter-pypack](https://github.com/ashwinvis/cookiecutter-pypack)
-project template.
