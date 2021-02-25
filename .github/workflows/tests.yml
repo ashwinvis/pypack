@@ -9,7 +9,6 @@ on:
 env:
   PIP_CACHE_DIR: ~/.cache/pip
 
-
 jobs:
   build:
 
@@ -46,5 +45,5 @@ jobs:
 
     - name: Test with tox and Python ${{ matrix.python }}
       run: |
-        pytest -s
+        python -m unittest discover
 
