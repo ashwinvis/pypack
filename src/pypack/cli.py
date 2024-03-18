@@ -2,6 +2,7 @@
 
 """Console script for pypack."""
 import argparse
+
 from pypack import __version__
 
 
@@ -10,11 +11,9 @@ def get_parser():
     parser = argparse.ArgumentParser(
         prog="pypack",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        description=__doc__
+        description=__doc__,
     )
-    parser.add_argument(
-        "-v", "--verbose", action="store_true", help="be more verbose"
-    )
+    parser.add_argument("-v", "--verbose", action="store_true", help="be more verbose")
     parser.add_argument(
         "-V", "--version", action="version", version="%(prog)s {}".format(__version__)
     )
@@ -29,13 +28,8 @@ def main(args=None):
     args = parser.parse_args(args)
 
     # Process args here
-    print(
-        "Replace this message by putting your code into "
-        "pypack.cli.main"
-    )
-    print(
-        "See argparse tutorial at https://docs.python.org/3/howto/argparse.html"
-    )
+    print("Replace this message by putting your code into " "pypack.cli.main")
+    print("See argparse tutorial at https://docs.python.org/3/howto/argparse.html")
 
 
 if __name__ == "__main__":
