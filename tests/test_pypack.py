@@ -3,9 +3,8 @@
 
 """Tests for `pypack` package."""
 
-from warnings import warn
-
 import unittest
+from warnings import warn
 
 import pypack
 
